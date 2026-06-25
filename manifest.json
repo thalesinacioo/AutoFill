@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "AutoFill",
+  "version": "1.0",
+  "description": "Salve informações e preencha campos com um clique direito.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp9AhAZnG7v+FaeWLtaK0B5V5hgBQSAvSmPbaTIwz1jJDr/4Na3qWkYyBpgPdXS46oAloP7zVyxRbY3KFYu64Sn+SN6YreIm9cjDLXnrhiL4txM+zMiC17hc0S58C5VblctAF2gmU3USnWMaaSh4wPwRwXks8TvJJrtJEGMo4SAcEIIbJ96p0y4X1FUDdSOwLJv9WUu0yUJ1n3gWt3kIgjPHOvaJ7VY4nfWfzT6N0T9rqE9UnugfEwBgOQ9WiDhiQH3d6stfbuySizOlB4UR+vP0gfwqg9ZsiZkvf5CB/2uSQDVRkdD+Fqv4rJpOqrFTUd23u0u6HEPEfdWwH3hEFZQIDAQAB",
+  "permissions": ["storage", "activeTab", "contextMenus", "scripting", "clipboardWrite"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Abrir AutoFill (salvar entradas)"
+    },
+    "fill-field": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "Command+Shift+F"
+      },
+      "description": "Preencher campo com AutoFill"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*.png", "icons/*.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
