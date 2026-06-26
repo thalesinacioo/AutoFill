@@ -6,6 +6,8 @@ Preencha seus formulários com um clique. Rápido, seguro e 100% gratuito.
 [![Version](https://img.shields.io/badge/version-1.0-brightgreen)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 
+![AutoFill — Preencha formulários em 1 clique](imagens/1_AutoFill.png)
+
 ---
 
 ## ✨ O que é?
@@ -33,6 +35,8 @@ Preencha seus formulários com um clique. Rápido, seguro e 100% gratuito.
 
 ## 💡 3 Formas de Preencher
 
+![3 Formas Fáceis de Preencher](imagens/2_3-Formas-Faceis-de-Preencher.png)
+
 ### 🖱️ Clique Direito
 Clique direito em um campo → Selecione sua entrada → Pronto!
 
@@ -45,6 +49,8 @@ Clique no ícone que aparece dentro do campo
 ---
 
 ## ✨ Features Principais
+
+![Tudo Que Você Precisa](imagens/4_Tudo-Que-Voce-Precisa.png)
 
 - ✅ Salvar informações ilimitadas
 - ✅ Preencher com clique direito, atalho ou ícone flutuante
@@ -62,6 +68,8 @@ Clique no ícone que aparece dentro do campo
 ---
 
 ## 🔒 Segurança & Privacidade
+
+![Segurança em Primeiro Lugar — Seus dados são 100% seus](imagens/3_Seguranca-em-Primeiro-Lugar-Seus-Dados-Sao-100percent-Seus.png)
 
 - Seus dados ficam 100% no seu navegador
 - Nenhum rastreamento ou coleta de dados
@@ -125,6 +133,12 @@ R: Exporte no antigo e importe no novo. Ou use Chrome Sync para sincronizar auto
 ## 📜 Licença
 
 MIT © 2024 AutoFill
+
+---
+
+## 📥 Instale Agora
+
+![Instale Agora — Preencha formulários em segundos](imagens/5_Instale-Agora-Preencha-Formularios-em-Segundos.png)
 
 ---
 
